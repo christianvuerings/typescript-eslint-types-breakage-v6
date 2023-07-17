@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "allowJs": true,
+		"baseUrl": "src",
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": false,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": ["dom", "dom.iterable"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "outDir": "./tsc_out/",
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "strict": true,
+    "target": "es5",
+    "noEmit": true,
+    "incremental": true,
+    "resolveJsonModule": true
+  },
+  "include": ["."],
+  "exclude": ["dist", "tsc_out", "scratch"]
+}
